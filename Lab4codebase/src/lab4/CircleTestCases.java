@@ -8,16 +8,17 @@ class CircleTestCases {
 
 	@Test
 	void testAreaUnitCircle() {
-		Circle circle = new Circle(1);
+		Point p = new Point(0,0);
+		Circle circle = new Circle(p, 1);
 		double area = circle.area();
-		
 		assertEquals(area, Math.PI);
 	}
-	
+
+	@Test
 	void testAreaCircle() {
-		Circle circle = new Circle(5);
+		Point p = new Point(0,0);
+		Circle circle = new Circle(p, 5);
 		double area = circle.area();
-		
 		assertEquals(area, Math.PI*5*5);
 	}
 
