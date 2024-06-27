@@ -18,6 +18,7 @@ public class Lab4Tests {
     }
 
     // Point equals tests
+    
     @Test
     public void testEqualsSamePoints() {
         Point p1 = new Point(1, 1);
@@ -36,6 +37,7 @@ public class Lab4Tests {
         Point p1 = new Point(1, 1);
         assertFalse(p1.equals(null));
     }
+    
 
     @Test
     public void testEqualsDifferentPoints() {
