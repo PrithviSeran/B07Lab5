@@ -108,4 +108,22 @@ public class Lab4Tests {
         Triangle t2 = new Triangle(p4, p5, p6);
         assertFalse(t2.isEquilateral());
     }
+
+
+//Tests for Circle
+@Test
+	void testAreaUnitCircle() {
+		Point p = new Point(0,0);
+		Circle circle = new Circle(p, 1);
+		double area = circle.area();
+		assertEquals(area, Math.PI);
+	}
+
+	@Test
+	void testAreaCircle() {
+		Point p = new Point(0,0);
+		Circle circle = new Circle(p, 5);
+		double area = circle.area();
+		assertEquals(area, Math.PI*5*5);
+	}
 }
