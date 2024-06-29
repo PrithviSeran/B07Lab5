@@ -175,4 +175,6 @@ public class Lab4Tests {
         assertEquals(expectedCentroid.x, actualCentroid.x);
         assertEquals(expectedCentroid.y, actualCentroid.y);
     }
+
+    //WHY?
 }
