@@ -111,4 +111,6 @@ public class Lab4Tests {
         assertFalse(t2.isEquilateral());
     }
 
+    //WHy???
+
 }
