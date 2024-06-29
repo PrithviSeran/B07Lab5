@@ -1,4 +1,13 @@
+package lab4;
 
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+
+
+
+public class Lab4Tests {
     // Pentagon Tests
     @Test
     public void testPentPerimeter() {
