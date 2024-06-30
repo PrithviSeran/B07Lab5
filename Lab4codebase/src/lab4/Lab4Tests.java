@@ -110,8 +110,8 @@ public class Lab4Tests {
     }
 
 
-//Tests for Circle
-@Test
+	//Tests for Circle
+	@Test
 	void testAreaUnitCircle() {
 		Point p = new Point(0,0);
 		Circle circle = new Circle(p, 1);
